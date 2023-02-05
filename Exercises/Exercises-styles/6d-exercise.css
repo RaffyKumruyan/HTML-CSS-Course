@@ -1,0 +1,10 @@
+p {
+  font-family: Montserrat;
+}
+.model {
+  font-size: xx-large;
+  font-weight: bold;
+}
+.delivery {
+  text-decoration: underline;
+}
