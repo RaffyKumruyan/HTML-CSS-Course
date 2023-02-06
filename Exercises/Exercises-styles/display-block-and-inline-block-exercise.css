@@ -13,6 +13,13 @@
   vertical-align: middle;
 }
 
+.google-logo {
+  width: 150px;
+  display: block;
+  margin-bottom: 10px;
+  margin-left: 115px;
+}
+
 .google-search {
   display: block;
   width: 400px;
@@ -20,11 +27,70 @@
   box-shadow: 3px 3px 10px rgba(100, 100, 100, 0.3);
   border-radius: 22px;
   padding: 10px 10px;
+  margin-bottom: 20px;
 }
 
-.google-logo {
-  width: 150px;
+.sign-up-first-name,
+.sign-up-last-name {
+  border-radius: 8px;
+  border-width: 1px;
+  border-style: solid;
+  padding: 12px 10px;
+  width: 100px;
+  border-color: grey;
+}
+
+.sign-up-email {
   display: block;
-  margin-bottom: 10px;
-  margin-left: 115px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  border-radius: 8px;
+  border-width: 1px;
+  border-style: solid;
+  padding: 12px 10px;
+  width: 226px;
+  border-color: grey;
+}
+
+.sign-up-button {
+  background-color: rgb(21, 118, 236);
+  border: none;
+  color: white;
+  padding: 12px 100px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.title {
+  font-size: xx-large;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.pickup,
+.destination {
+  display: block;
+  margin-bottom: 5px;
+  border: none;
+  padding: 10px 150px;
+  padding-left: 10px;
+  background-color: rgb(243, 242, 243);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.request-button {
+  margin-top: 20px;
+  border: none;
+  background-color: black;
+  color: white;
+  padding: 10px 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.later-button {
+  border: none;
+  background-color: rgb(243, 242, 243);
+  padding: 10px 16px;
+  margin-left: 12px;
+  font-family: Arial, Helvetica, sans-serif;
 }
