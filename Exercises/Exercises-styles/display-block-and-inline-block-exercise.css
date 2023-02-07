@@ -13,23 +13,6 @@
   vertical-align: middle;
 }
 
-.google-logo {
-  width: 150px;
-  display: block;
-  margin-bottom: 10px;
-  margin-left: 115px;
-}
-
-.google-search {
-  display: block;
-  width: 400px;
-  border: none;
-  box-shadow: 3px 3px 10px rgba(100, 100, 100, 0.3);
-  border-radius: 22px;
-  padding: 10px 10px;
-  margin-bottom: 20px;
-}
-
 .sign-up-first-name,
 .sign-up-last-name {
   border-radius: 8px;
@@ -38,6 +21,7 @@
   padding: 12px 10px;
   width: 100px;
   border-color: grey;
+  margin-top: 20px;
 }
 
 .sign-up-email {
@@ -93,4 +77,33 @@
   padding: 10px 16px;
   margin-left: 12px;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.google-logo {
+  width: 150px;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.google-search {
+  display: inline-block;
+  width: 400px;
+  border: none;
+  box-shadow: 3px 3px 10px rgba(100, 100, 100, 0.3);
+  border-radius: 22px;
+  padding: 10px 10px;
+  margin-bottom: 20px;
+}
+
+.google-search-button,
+.google-lucky-button {
+  border: none;
+  padding: 12px 20px;
+  margin-right: 10px;
+}
+
+.google-search-div,
+.google-logo-div,
+.google-buttons-div {
+  text-align: center;
 }

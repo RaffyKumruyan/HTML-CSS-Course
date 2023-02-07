@@ -94,3 +94,11 @@ p {
   cursor: pointer;
   font-weight: bold;
 }
+
+.tweet-box {
+  box-shadow: 2px 2px 4px rgba(100, 100, 100, 0.3),
+    -2px -2px 4px rgba(100, 100, 100, 0.3);
+  width: 400px;
+  border-radius: 6px;
+  padding: 8px 8px;
+}

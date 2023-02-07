@@ -1,0 +1,84 @@
+.red-div {
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+}
+
+.green-div {
+  background-color: green;
+  width: 100px;
+  height: 100px;
+  margin-top: 10px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.service-form {
+  border-style: solid;
+  border-color: gray;
+  width: 270px;
+  height: 90px;
+  padding-left: 10px;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.youtube-music-install {
+  background-color: rgb(33, 32, 34);
+  width: 330px;
+  padding: 3px 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 20px;
+}
+
+.youtube-title {
+  color: white;
+  font-size: x-large;
+  margin-bottom: 0px;
+  font-weight: bold;
+}
+
+.youtube-subtitle {
+  color: rgb(119, 118, 119);
+  margin-top: 10px;
+}
+
+.friend-box {
+  padding: 10px 10px;
+  margin-right: 10px;
+  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+  box-shadow: 2px 2px 5px rgba(100, 100, 100, 0.3),
+    -2px -2px 5px rgba(100, 100, 100, 0.3);
+  display: inline-block;
+}
+
+.friend-photo {
+  width: 130px;
+  height: 150px;
+  object-fit: none;
+}
+
+.friend-name {
+  font-weight: bold;
+  margin: 5px 0px;
+  font-size: small;
+}
+
+.mutural-friends-count {
+  color: grey;
+  font-size: x-small;
+  margin: 5px 0px 12px 0px;
+}
+
+.add-friend-button {
+  background-color: rgb(21, 118, 236);
+  border: none;
+  padding: 8px 12px;
+  font-size: x-small;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+}
