@@ -56,8 +56,8 @@
 }
 
 .friend-photo {
-  width: 130px;
-  height: 150px;
+  width: 135px;
+  height: 135px;
   object-fit: none;
 }
 
@@ -71,6 +71,7 @@
   color: grey;
   font-size: x-small;
   margin: 5px 0px 12px 0px;
+  display: inline-block;
 }
 
 .add-friend-button {
@@ -78,7 +79,17 @@
   border: none;
   padding: 8px 12px;
   font-size: x-small;
-  border-radius: 6px;
+  border-radius: 4px;
   color: white;
   cursor: pointer;
+  display: block;
+  margin-top: 4px;
+}
+
+.profile-picture {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+  vertical-align: middle;
 }
