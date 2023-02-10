@@ -45,45 +45,48 @@
   margin-top: 10px;
 }
 
+.friends-grid {
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  column-gap: 15px;
+}
+
 .friend-box {
-  padding: 10px 10px;
-  margin-right: 10px;
-  display: inline-block;
   font-family: Arial, Helvetica, sans-serif;
   box-shadow: 2px 2px 5px rgba(100, 100, 100, 0.3),
     -2px -2px 5px rgba(100, 100, 100, 0.3);
-  display: inline-block;
 }
 
 .friend-photo {
-  width: 135px;
-  height: 135px;
-  object-fit: none;
+  width: 100%;
 }
 
 .friend-name {
   font-weight: bold;
-  margin: 5px 0px;
+  margin: 5px 5px;
   font-size: small;
+}
+
+.mutural-friends-row {
+  display: grid;
+  grid-template-columns: 40px 1fr;
+  align-items: center;
 }
 
 .mutural-friends-count {
   color: grey;
   font-size: x-small;
-  margin: 5px 0px 12px 0px;
-  display: inline-block;
 }
 
 .add-friend-button {
   background-color: rgb(21, 118, 236);
   border: none;
-  padding: 8px 12px;
+  padding: 8px 14px;
   font-size: x-small;
   border-radius: 4px;
   color: white;
   cursor: pointer;
-  display: block;
-  margin-top: 4px;
+  margin: 5px 5px;
 }
 
 .profile-picture {
@@ -92,4 +95,5 @@
   border-radius: 50%;
   object-fit: cover;
   vertical-align: middle;
+  margin: 0px 0px 0px 5px;
 }
