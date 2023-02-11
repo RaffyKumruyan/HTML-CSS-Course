@@ -1,16 +1,3 @@
-body {
-  padding: 0px 0px 1000px 0px;
-}
-
-p {
-  font-family: Robota, Arial;
-  margin: 0px;
-}
-
-.search-bar {
-  display: block;
-}
-
 .video-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;

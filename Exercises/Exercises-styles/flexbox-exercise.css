@@ -1,0 +1,199 @@
+body {
+  font-family: Arial;
+  padding: 0px 0px 1000px 0px;
+}
+
+p {
+  margin: 0px;
+}
+
+.flexbox-a {
+  display: flex;
+  flex-direction: row;
+  margin: 0px 0px 30px 0px;
+}
+
+.flexbox-a-left {
+  width: 200px;
+  background-color: lightblue;
+}
+
+.flexbox-a-right {
+  width: 75px;
+  background-color: lightpink;
+}
+
+.flexbox-b {
+  display: flex;
+  flex-direction: row;
+  margin: 0px 0px 30px 0px;
+}
+
+.flexbox-b-left {
+  width: 50px;
+  background-color: lightblue;
+}
+
+.flexbox-b-middle {
+  flex: 1;
+  background-color: lightpink;
+}
+
+.flexbox-b-right {
+  width: 75px;
+  background-color: lightblue;
+}
+
+.flexbox-c {
+  display: flex;
+  flex-direction: row;
+  margin: 0px 0px 30px 0px;
+  justify-content: space-between;
+  background-color: whitesmoke;
+}
+
+.flexbox-c-1 {
+  background-color: lightpink;
+}
+
+.flexbox-c-2 {
+  background-color: lightpink;
+}
+
+.flexbox-c-3 {
+  background-color: lightpink;
+}
+
+.flexbox-c-4 {
+  background-color: lightpink;
+}
+
+.flexbox-d {
+  display: flex;
+  flex-direction: row;
+  margin: 0px 0px 30px 0px;
+  border-width: 1px;
+  border-color: grey;
+  border-style: solid;
+  justify-content: space-between;
+  height: 60px;
+  align-items: center;
+}
+
+.flexbox-d-left {
+  background-color: lightpink;
+}
+
+.flexbox-d-right {
+  background-color: lightpink;
+}
+
+.flexbox-e {
+  border-width: 1px;
+  border-color: grey;
+  border-radius: 6px;
+  border-style: solid;
+  width: 300px;
+  margin: 0px 0px 30px 0px;
+}
+
+.flexbox-e-inside {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 12px;
+}
+
+.flexbox-e-amount {
+  background-color: rgb(49, 109, 245);
+  border-radius: 14px;
+  padding: 3px 10px;
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.flexbox-f {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(107, 80, 153);
+  padding: 0px 15px;
+  margin: 0px 0px 30px 0px;
+  color: white;
+}
+
+.flexbox-f-home {
+  font-weight: 700;
+}
+
+.flexbox-f-search {
+  border: none;
+  flex: 1;
+  margin: 12px 50px;
+  max-width: 500px;
+  border-radius: 15px;
+  height: 30px;
+  padding-left: 20px;
+}
+
+.flexbox-f-download {
+  border-width: 1px;
+  border-color: white;
+  border-style: solid;
+  border-radius: 2px;
+  color: white;
+  background-color: rgb(107, 80, 153);
+  padding: 8px 15px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.flexbox-g-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0px 0px 20px 0px;
+  /* width: 350px; */
+}
+
+.flexbox-g-profile-picture {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+  object-fit: cover;
+}
+
+.flexbox-g-info {
+  /* flex: 1; */
+  width: 200px;
+}
+
+.flexbox-g-name {
+  font-weight: 700;
+  margin-bottom: 3px;
+}
+
+.flexbox-g-handle {
+  color: gray;
+  margin-bottom: 5px;
+}
+
+.flexbox-g-category {
+  color: gray;
+  font-size: 14px;
+}
+
+.flexbox-g-follow-button {
+  background-color: rgb(29, 161, 242);
+  border: none;
+  color: white;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
