@@ -1,0 +1,129 @@
+body {
+  height: 3000px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: lightgray;
+  margin: 0px;
+  padding: 0px 0px 0px 150px;
+}
+
+.a-14 {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: black;
+  color: white;
+}
+
+.b-14 {
+  position: fixed;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  width: 100px;
+  background-color: green;
+  color: white;
+}
+
+.c-14 {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  top: 0px;
+  background-color: black;
+}
+
+.d-14-overlay {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  top: 0px;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.d-14-modal {
+  background-color: white;
+  border-radius: 8px;
+  width: 300px;
+  padding: 15px;
+}
+
+.d-14-modal-title {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.e-14-header {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  padding: 10px 50px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.e-14-header-left-section {
+  display: flex;
+  align-items: center;
+}
+
+.profile-picture {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0px 10px 0px 0px;
+}
+
+.profile-name {
+  font-weight: 700;
+}
+
+.add-friend-button {
+  background-color: rgb(24, 119, 242);
+  border: none;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-weight: 700;
+  margin: 0px 3px 0px 0px;
+}
+
+.message-button {
+  background-color: rgb(230, 230, 230);
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-weight: 700;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  display: flex;
+  width: 150px;
+}
+
+.sidebar-left {
+  width: 60px;
+  background-color: black;
+}
+
+.profile-picture {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.sidebar-right {
+  flex: 1;
+  background-color: gray;
+}
