@@ -1,0 +1,70 @@
+body {
+  height: 3000px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.a-15 {
+  position: absolute;
+  background-color: black;
+  color: white;
+  padding: 5px 9px;
+  border-radius: 50%;
+  left: -10px;
+  top: -10px;
+}
+
+.b-15 {
+  width: 320px;
+  height: 180px;
+  position: fixed;
+  background-color: grey;
+  bottom: 10px;
+  right: 10px;
+}
+
+.d-15 {
+  position: absolute;
+  background-color: black;
+  color: white;
+  padding: 5px 9px;
+  right: 10px;
+  bottom: 10px;
+}
+
+.picture-container {
+  position: relative;
+  display: inline-block;
+}
+
+.picture {
+  width: 400px;
+}
+
+.discount {
+  position: absolute;
+  background-color: black;
+  color: white;
+  padding: 6px 10px;
+  right: 0px;
+  top: 10px;
+}
+
+.add-to-cart-container {
+  position: absolute;
+  height: 120px;
+  bottom: 0px;
+  background-color: rgba(255, 255, 255, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 0px;
+  right: 0px;
+}
+
+.add-to-cart-button {
+  padding: 8px 12px;
+  background-color: white;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+}
